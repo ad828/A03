@@ -37,26 +37,37 @@ If you need to see the list of changed files, you can use 'git status'.
 
 Thanks for reading! Let me know if you think anything can be addressed better or if this general guide was good. This is in no means an in depth guide and is just meant to be an introduction to using git, github, and webstorm. Here is a glossary of terms used in this guide:
 
-*Branch* - a "lightweight movable pointer to a commit" With the default being master, they help you organize your workflow by letting you sort your commits to different branches. Using 'git branch' shows existing branches in your repository.
-*Clone* - takes an repository and puts its contents into a new directory. 'git clone url' clones a repository, coping all its files, branches and commits.
-*Commit* - similar to a snapshot of a repository, a commit includes new code, metadata for the time and date, and a message typically containing context for changes. 'git commit -m "message"' creates a commit.
-*Fetch* - fetch gets content from another repository and allows you to interact with other branches differently from a merge.
-*GIT* - a version control system, git stores snapshots of your project over time through commits, which are sorted in branches in repositories. Allowing you to easily keep your project up to date and optimize workflow.
-*Github* - A website which hosts git based projects, where your projects get sent to when using git.
-*Merge* - merging brings the history of branches together, it takes the work and content of one branch and merges it into another.
-*Merge Conflict* - when two files have similar changes and git can not figure out what to merge.
-*Push* - takes content from your local machine and pushes it onto github. 'git push origin master' for example pushes to the master branch.
-*Pull* - the inverse of push, it pulls content from github and pulls it onto your local machine.
-*Remote* - a collective repository for code that's hosted on github, 'git clone', 'git status', 'git push' and 'git pull' interact with the remote.
-*Repository* - the core element of github. The place where your files and content that you will be managing and updating lie.
+*Branch* - a "lightweight movable pointer to a commit" With the default being master, they help you organize your workflow by letting you sort your commits to different branches. Using 'git branch' shows existing branches in your repository.<br>
 
-References:
-https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell
-https://github.com/git-guides/git-clone
-https://git-scm.com/docs/git-fetch
-https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F
-https://github.com/git-guides/git-remote
-https://git-scm.com/docs/git-fetch
-https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
+*Clone* - takes an repository and puts its contents into a new directory. 'git clone url' clones a repository, coping all its files, branches and commits.<br>
 
+*Commit* - similar to a snapshot of a repository, a commit includes new code, metadata for the time and date, and a message typically containing context for changes. 'git commit -m "message"' creates a commit.<br>
+
+*Fetch* - fetch gets content from another repository and allows you to interact with other branches differently from a merge.<br>
+
+*GIT* - a version control system, git stores snapshots of your project over time through commits, which are sorted in branches in repositories. Allowing you to easily keep your project up to date and optimize workflow.<br>
+
+*Github* - A website which hosts git based projects, where your projects get sent to when using git.<br>
+
+*Merge* - merging brings the history of branches together, it takes the work and content of one branch and merges it into another.<br>
+
+*Merge Conflict* - when two files have similar changes and git can not figure out what to merge.<br>
+
+*Push* - takes content from your local machine and pushes it onto github. 'git push origin master' for example pushes to the master branch.<br>
+
+*Pull* - the inverse of push, it pulls content from github and pulls it onto your local machine.<br>
+
+*Remote* - a collective repository for code that's hosted on github, 'git clone', 'git status', 'git push' and 'git pull' interact with the remote.<br>
+
+*Repository* - the core element of github. The place where your files and content that you will be managing and updating lie.<br>
+
+References:<br>
+https://git-scm.com/book/en/v2/Git-Branching-Branches-in-a-Nutshell<br>
+https://github.com/git-guides/git-clone<br>
+https://git-scm.com/docs/git-fetch<br>
+https://www.git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F<br>
+https://github.com/git-guides/git-remote<br>
+https://git-scm.com/docs/git-fetch<br>
+https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html<br>
+<br>
 
